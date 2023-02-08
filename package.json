@@ -1,0 +1,132 @@
+{
+  "name": "mycoolapp",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "analyzeBundle": "npm run build && source-map-explorer 'build/static/js/*.js' --gzip",
+    "build": "react-scripts build",
+    "build:gzip": "npm run build && gzip build/static/**/*.js",
+    "build:prod": "PUBLIC_URL=https://edge.fscdn.org/assets/ npm run build",
+    "heroku-postbuild": "npm run build:prod",
+    "heroku-prebuild": "./heroku-prebuild.sh",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "start": "react-scripts start",
+    "storybook": "start-storybook --port 5009",
+    "storybook:build": "build-storybook -c .storybook -o build",
+    "test": "react-scripts test",
+    "test:ci": "CI=true react-scripts test --coverage"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@fs/react-scripts": "^8.0.0",
+    "@fs/snow": "^7.7.8",
+    "@fs/startup": "^3.0.1",
+    "@fs/zion-axios": "^5.0.0",
+    "@fs/zion-config": "^3.0.0",
+    "@fs/zion-debug": "^2.0.0",
+    "@fs/zion-error-boundary": "^7.0.0",
+    "@fs/zion-flags": "^4.0.0",
+    "@fs/zion-form": "^3.0.0",
+    "@fs/zion-help-overlay": "^3.0.0",
+    "@fs/zion-icon": "^8.0.0",
+    "@fs/zion-locale": "^6.0.0",
+    "@fs/zion-memory-card": "^1.0.0",
+    "@fs/zion-root": "^16.0.0",
+    "@fs/zion-router": "^10.0.0",
+    "@fs/zion-ui": "^12.0.0",
+    "@fs/zion-user": "^7.0.0",
+    "@hookform/resolvers": "^2.0.0",
+    "@linaria/core": "^3.0.0-beta.13",
+    "@react-spring/web": "^9.3.2",
+    "@sentry/browser": "^5.29.0",
+    "express": "^4.17.1",
+    "i18next": "19.8.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.8.3",
+    "workbox-background-sync": "^5.1.3",
+    "workbox-broadcast-update": "^5.1.3",
+    "workbox-cacheable-response": "^5.1.3",
+    "workbox-core": "^5.1.3",
+    "workbox-expiration": "^5.1.3",
+    "workbox-google-analytics": "^5.1.3",
+    "workbox-navigation-preload": "^5.1.3",
+    "workbox-precaching": "^5.1.3",
+    "workbox-range-requests": "^5.1.3",
+    "workbox-routing": "^5.1.3",
+    "workbox-strategies": "^5.1.3",
+    "workbox-streams": "^5.1.3",
+    "yup": "^0.28.5"
+  },
+  "devDependencies": {
+    "@alienfast/i18next-loader": "^1.1.4",
+    "@fs/eslint-config-frontier-react": "^10.0.0",
+    "@fs/storybook-addons": "^8.0.0",
+    "@fs/storybook-react-router": "^1.0.9",
+    "@fs/zion-testing-library": "^10.0.0",
+    "@storybook/addon-a11y": "~6.3.0",
+    "@storybook/addon-actions": "~6.3.0",
+    "@storybook/addon-console": "~1.2.3",
+    "@storybook/addon-controls": "~6.3.0",
+    "@storybook/addon-docs": "~6.3.0",
+    "@storybook/addon-essentials": "~6.3.0",
+    "@storybook/addon-knobs": "~6.3.0",
+    "@storybook/addon-viewport": "~6.3.0",
+    "@storybook/addons": "~6.3.0",
+    "@storybook/preset-create-react-app": "~4.1.2",
+    "@storybook/react": "~6.3.0",
+    "@storybook/theming": "~6.3.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.15.0",
+    "gzip-cli": "^1.2.0",
+    "husky": "^4.3.5",
+    "lint-staged": "^10.5.3",
+    "source-map-explorer": "^2.5.1",
+    "suppress-exit-code": "~0.1.0",
+    "@storybook/addon-links": "~6.3.0",
+    "@storybook/builder-webpack5": "~6.3.0",
+    "@storybook/manager-webpack5": "~6.3.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@fs/eslint-config-frontier-react"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint && CI=true npm test"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "suppress-exit-code npm run lint:fix"
+    ]
+  },
+  "lastFrMigrationTimestamp": 1673468019907,
+  "overrides": {
+    "@types/react": "^16.0.0",
+    "type-fest": "^0.13.1",
+    "axios": "^0.24.0",
+    "@splitsoftware/splitio-commons": "^1.7.2"
+  }
+}

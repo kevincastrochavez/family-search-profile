@@ -1,0 +1,22 @@
+{
+  "birth.label": "Nacimiento",
+  "death.label": "Defunción",
+  "welcome.message.name": "Te damos la bienvenida a FamilySearch, {name}",
+  "lesson.plan.title.placeholder": "Lección {number, number} ({date, date, medium})",
+  "modified.attribution": "Modificado:  {date, date} por {user}",
+  "app.unavailable.alert": "{app} no estará disponible mientras hacemos las actualizaciones del sitio, empezando el {weekday}, {ordinalDayOfMonth} de {month} a las {time} ({utcOffset}UTC) y tardará aproximadamente {duration}.  Pedimos disculpas por la molestia.",
+  "pending.members": "{count, plural, =0 {No hay miembros pendientes} one {# Miembro pendiente} other {# Miembros pendientes}}",
+  "sample.images": "Imágenes de ejemplo",
+  "try.new.experience.feedback": "Prueba la nueva experiencia y haznos llegar tus comentarios.",
+  "nav.overview": "Reseña",
+  "error.try.again.message": "Se produjo un error. Por favor, inténtalo otra vez.",
+  "displaying.film.count": "(Este centro de historia familiar cuenta con {location_count, number} de {total_count, number} microfilmes y microfichas.)",
+  "auto-save.label": "Guardado automáticamente en {time, time, short}",
+  "changes.feedback": "Hemos hecho algunos cambios para que tengas una mejor experiencia. Nos encantaría recibir tus <0>comentarios</0> para hacer futuras mejoras.",
+  "error.message.body": "Ha ocurrido un error que podría afectar tu capacidad de usar esta página. Se ha notificado a FamilySearch",
+  "upload.progress": "{percent, number, percent} de {totalSize, number}",
+  "image.permissions.action": "En <0>{imageThirdPartyProvider}</0>. Si haces clic aquí, saldrás de FamilySearch.org. (quizás se apliquen tarifas y otros términos)",
+  "attach.error.message": "Error al enviar {errorCount, number} de {totalCount, number} fuentes adjuntas",
+  "familysearch.purpose.all-people.title": "A todas las personas",
+  "familysearch.purpose.statement": "Creamos experiencias inspiradoras que brindan gozo <0>a todas las personas</0> a medida que descubren, se reúnen y se conectan con su familia: la pasada, la presente y la futura."
+}

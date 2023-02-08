@@ -1,0 +1,19 @@
+dist: focal
+language: node_js
+node_js:
+  - "16"
+before_install:
+  - echo -e "machine github.com\n  login $CI_USER_TOKEN" > ~/.netrc
+  - echo "//familysearch.jfrog.io/artifactory/api/npm/fs-npm-prod-virtual/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
+  - echo "@fs:registry=https://familysearch.jfrog.io/artifactory/api/npm/fs-npm-prod-virtual/" >> ~/.npmrc
+script: npm run lint && npm run test -- --coverage
+branches:
+  only:
+    - master
+    - main
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

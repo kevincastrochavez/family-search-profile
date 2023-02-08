@@ -1,0 +1,20 @@
+{
+  "birth.label": "出生",
+  "death.label": "死亡",
+  "welcome.message.name": "{name}さん，ファミリーサーチへようこそ",
+  "lesson.plan.title.placeholder": "レッスン{number, number}（{date, date}）",
+  "modified.attribution": "更新日：{date, date}／{user}",
+  "app.unavailable.alert": "{app}は，サイトの改善のため，{month}{ordinalDayOfMonth}（{weekday}）の{time}（UTC{utcOffset}：協定世界時）から約{duration}ほどご利用いただけません。  ご不便をおかけして申し訳ございません。",
+  "pending.members": "{count, plural, =0 {保留中の会員はいません} one {#人の保留中の会員} other {#人の保留中の会員}}",
+  "sample.images": "サンプル画像",
+  "try.new.experience.feedback": "新機能を試し，フィードバックを提供してください。",
+  "nav.overview": "概要",
+  "error.try.again.message": "エラーが発生しました。再試行してください。",
+  "displaying.film.count": "（この家族歴史センターは{total_count, number} 枚のフィルム／フィッシュの内 {location_count, number} 枚を保持しています。）",
+  "auto-save.label": "自動的に{time, time, short}に保存されました",
+  "changes.feedback": "より快適にご利用いただけるように，いくつかの変更を加えました。さらに改善するために，皆さんの<0>フィードバック</0>をお待ちしています。",
+  "error.message.body": "このページの使用に影響を与える可能性のあるエラーが発生しました。ファミリーサーチに通知しました。",
+  "upload.progress": "{percent, number, percent} ／ {totalSize, number}",
+  "image.permissions.action": "<0>{imageThirdPartyProvider}</0>にて。こちらをクリックすると， FamilySearch.orgから別のサイトに移ります（利用料金などの規約が適用される可能性があります）。",
+  "attach.error.message": "{errorCount, number}／{totalCount, number}を添付できませんでした"
+}

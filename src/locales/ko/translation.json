@@ -1,0 +1,17 @@
+{
+  "birth.label": "출생",
+  "death.label": "사망",
+  "welcome.message.name": "{name} 님, FamilySearch에 오신 것을 환영합니다!",
+  "lesson.plan.title.placeholder": "강좌 {number, number}({date, date, medium})",
+  "modified.attribution": "수정됨: {date, date}에 {user}이(가) 수정함",
+  "app.unavailable.alert": "{month}{ordinalDayOfMonth} {weekday}, {time}(한국 시간으로 {utcOffset})부터 약 {duration} 동안 진행되는 유지 보수 작업 때문에 {app}을(를) 이용할 수 없을 예정입니다.  불편을 끼쳐드려 죄송합니다.",
+  "try.new.experience.feedback": "새로운 기능을 이용해 보고 피드백을 주십시오.",
+  "nav.overview": "개요",
+  "error.try.again.message": "오류가 발생했습니다. 다시 시도하십시오.",
+  "displaying.film.count": "(본 가족 역사 센터는 {location_count, number}의 필름/피시 중 {total_count, number} 를 보유하고 있습니다.)",
+  "auto-save.label": "{time, time, short}에 자동으로 저장됨",
+  "changes.feedback": "귀하에게 더 나은 경험을 드리기 위해 일부 사항을 변경했습니다. 더 나은 개선을 위해 귀하의 <0>피드백</0>을 듣고 싶습니다.",
+  "upload.progress": "전체 크기의 {percent, number, percent}",
+  "image.permissions.action": "<0>{imageThirdPartyProvider}</0>. 여기를 클릭하여 FamilySearch.org에서 나갑니다.(요금 및 기타 조건이 적용될 수 있음)",
+  "attach.error.message": "{totalCount, number}개 중 {errorCount, number}개 첨부 실패"
+}

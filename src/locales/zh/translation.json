@@ -1,0 +1,17 @@
+{
+  "birth.label": "出生",
+  "death.label": "死亡",
+  "welcome.message.name": "歡迎來到 FamilySearch，{name}",
+  "lesson.plan.title.placeholder": "課程{number, number}（{date, date, medium}）",
+  "modified.attribution": "修改日期：{date, date} 建立者：{user} ",
+  "app.unavailable.alert": "{app}將於{month}{ordinalDayOfMonth}{weekday}，{time}（世界標準時間{utcOffset}）起改善網站，約持續{duration}，屆時將無法使用。  很抱歉造成不便。",
+  "try.new.experience.feedback": "請試試新的體驗，並提供意見。",
+  "nav.overview": "概覽",
+  "error.try.again.message": "發生錯誤。請再試一次。",
+  "displaying.film.count": "（此家譜中心持有 {location_count, number} 卷微卷／微縮平片，全球總數為 {total_count, number} 卷。）",
+  "auto-save.label": "已於{time, time, short}自動儲存",
+  "changes.feedback": "我們已進行一些變更來提供更佳的使用經驗。我們很樂於聽取你的<0>意見</0>以作進一步的改善。",
+  "upload.progress": "{totalSize, number}的{percent, number, percent}",
+  "image.permissions.action": "在 <0>{imageThirdPartyProvider}</0>。點選此處你將離開 FamilySearch.org（可能需付費並適用其他條款）。",
+  "attach.error.message": "{totalCount, number}個中的{errorCount, number}個附件失敗"
+}

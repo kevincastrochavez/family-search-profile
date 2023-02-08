@@ -1,0 +1,20 @@
+{
+  "birth.label": "Geburt",
+  "death.label": "Tod",
+  "welcome.message.name": "Willkommen bei FamilySearch, {name}",
+  "lesson.plan.title.placeholder": "Lektion {number, number} ({date, date, medium})",
+  "modified.attribution": "Geändert: {date, date} von {user}",
+  "app.unavailable.alert": "{app}: Die Anwendung ist nicht verfügbar, während wir Verbesserungen an der Website vornehmen. Die Arbeiten beginnen am {weekday}, dem {ordinalDayOfMonth} {month}, um {time} Uhr (UTC{utcOffset}) und dauern etwa {duration}.  Wir bedauern die Unannehmlichkeiten.",
+  "pending.members": "{count, plural, =0 {Keine Mitglieder, die noch nicht bestätigt sind} one {# noch nicht bestätigtes Mitglied} other {# noch nicht bestätigte Mitglieder}}",
+  "sample.images": "Beispielaufnahmen",
+  "try.new.experience.feedback": "Bitte probieren Sie die neue Ansicht aus und sagen Sie uns, was Sie darüber denken.",
+  "nav.overview": "Übersicht",
+  "error.try.again.message": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+  "displaying.film.count": "(Dieses Center für Familiengeschichte hat {location_count, number} von {total_count, number} Filmen/Fiches.)",
+  "auto-save.label": "Automatisch gespeichert um {time, time, short}",
+  "changes.feedback": "Um die Seite noch benutzerfreundlicher zu machen, haben wir ein paar Änderungen vorgenommen. Teilen Sie uns bitte <0>Ihre Meinung</0> mit, damit wir auch künftig Verbesserungen vornehmen können.",
+  "error.message.body": "Es ist ein Fehler aufgetreten, der unter Umständen Ihre Nutzung der Seite beeinträchtigen kann. FamilySearch wurde informiert.",
+  "upload.progress": "{percent, number, percent} von {totalSize, number}",
+  "image.permissions.action": "Auf der Website <0>{imageThirdPartyProvider}</0>. Sie verlassen FamilySearch.org, wenn Sie hier klicken. (Es können Gebühren anfallen und andere Nutzungsbedingungen gelten.)",
+  "attach.error.message": "{errorCount, number} von {totalCount, number} Verknüpfungen sind fehlgeschlagen"
+}

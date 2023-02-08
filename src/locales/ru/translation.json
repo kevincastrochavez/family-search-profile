@@ -1,0 +1,20 @@
+{
+  "birth.label": "Рождение",
+  "death.label": "Смерть",
+  "welcome.message.name": "{name}, добро пожаловать на FamilySearch!",
+  "lesson.plan.title.placeholder": "Урок {number, number} ({date, date, medium})",
+  "modified.attribution": "Изменено: {date, date} - {user}",
+  "app.unavailable.alert": "Раздел FamilySearch «{app} » будет недоступен  в связи с техническим обновлением в  {weekday}, {ordinalDayOfMonth} {month}  с {time} (UTC{utcOffset}). Обновление продлится примерно {duration}.  Приносим извинения за временные неудобства.",
+  "pending.members": "{count, plural, =0 {Нет находящихся на стадии рассмотрения членов группы} one {# Член группы, находящийся на стадии рассмотрения} other {# Члены группы, находящиеся на стадии рассмотрения}}",
+  "sample.images": "Образцы снимков",
+  "try.new.experience.feedback": "Попробуйте обновленный сайт и поделитесь впечатлениями.",
+  "nav.overview": "Обзор",
+  "error.try.again.message": "Произошла ошибка. Пожалуйста, попробуйте еще раз.",
+  "displaying.film.count": "(В центре семейной истории имеется {location_count, number} из {total_count, number} пленок/микрофишей.)",
+  "auto-save.label": "Сохранено автоматически в {time, time, short}",
+  "changes.feedback": "Мы сделали несколько изменений, чтобы вам было удобнее пользоваться сайтом. Мы будем рады услышать ваши <0>предложения</0> по поводу дальнейших улучшений.",
+  "error.message.body": "Произошла ошибка, которая может повлиять на возможность использования вами данной страницы. FamilySearch поставлен об этом в известность.",
+  "upload.progress": "{percent, number, percent} из {totalSize, number}",
+  "image.permissions.action": "В <0>{imageThirdPartyProvider}</0>. Щелкнув в этом месте, вы покинете страницу сайта FamilySearch.org. (могут налагаться комиссионные сборы и применяться другие условия использования)",
+  "attach.error.message": "Не удалось присоединить {errorCount, number} из {totalCount, number} "
+}

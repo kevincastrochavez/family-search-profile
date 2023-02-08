@@ -1,0 +1,33 @@
+version: "2"
+prepare:
+  fetch:
+    - url: "https://raw.githubusercontent.com/fs-webdev/eslint-config-frontier-react/master/codeclimateEslintRulesv9.js"
+      path: "eslint-config-frontier-react.js"
+checks:
+  method-complexity:
+    config:
+      threshold: 8
+  similar-code:
+    config:
+      threshold: 65
+plugins:
+  eslint:
+    enabled: true
+    channel: "eslint-7"
+    config:
+      config: .codeclimate.eslintrc.js
+      extensions:
+        - .js
+        - .json
+      ignore_warnings: false
+exclude_patterns:
+  - ".*"
+  - build/
+  - dist/
+  - eslint-config-frontier-react.js
+  - "**/node_modules/"
+  - "**/*min.*"
+  - "**/*.stories.js*"
+  - "**/*.test.js*"
+  - "**/reports/**/*"
+  - "**/vendor/**/*"

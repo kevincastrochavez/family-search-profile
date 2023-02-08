@@ -1,0 +1,22 @@
+{
+  "birth.label": "Birth",
+  "death.label": "Death",
+  "welcome.message.name": "Welcome to FamilySearch, {name}",
+  "lesson.plan.title.placeholder": "Lesson {number, number} ({date, date, medium})",
+  "modified.attribution": "Modified: {date, date} by {user}",
+  "app.unavailable.alert": "{app} will be unavailable as we make improvements to the site starting {weekday}, {month} {ordinalDayOfMonth} at {time} (UTC{utcOffset}) and lasting about {duration}.  We apologize for the inconvenience.",
+  "pending.members": "{count, plural, =0 {No Pending Members} one {# Pending Member} other {# Pending Members}}",
+  "sample.images": "Sample Images",
+  "try.new.experience.feedback": "Please try the new experience, and give feedback.",
+  "nav.overview": "Overview",
+  "error.try.again.message": "An error occurred. Please try again.",
+  "displaying.film.count": "(This family history center has {location_count, number} of {total_count, number} films/fiche.)",
+  "auto-save.label": "Saved automatically at {time, time, short}",
+  "changes.feedback": "We've made a few changes to give you a better experience. We'd love to hear your <0>feedback</0> for further improvements.",
+  "error.message.body": "An error has occurred that may affect your ability to use this page. FamilySearch has been notified.",
+  "upload.progress": "{percent, number, percent} of {totalSize, number}",
+  "image.permissions.action": "At <0>{imageThirdPartyProvider}</0>. By clicking here you will be leaving FamilySearch.org (fees and other terms may apply).",
+  "attach.error.message": "{errorCount, number} of {totalCount, number} Attachments Failed",
+  "familysearch.purpose.all-people.title": "To All People",
+  "familysearch.purpose.statement": "We create inspiring experiences that bring joy <0>to all people</0> as they discover, gather and connect their families — past, present and future."
+}

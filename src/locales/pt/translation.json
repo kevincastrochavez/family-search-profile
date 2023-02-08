@@ -1,0 +1,20 @@
+{
+  "birth.label": "Nascimento",
+  "death.label": "Falecimento",
+  "welcome.message.name": "Bem-vindo(a) ao FamilySearch, {name}",
+  "lesson.plan.title.placeholder": "Lição {number, number} ({date, date, medium})",
+  "modified.attribution": "Alteração: {date, date} por {user}",
+  "app.unavailable.alert": "O aplicativo “{app}” vai ficar indisponível enquanto fazemos melhorias no site, começando {weekday}, dia {ordinalDayOfMonth} de {month} às {time}h (UTC{utcOffset}), podendo durar cerca de {duration}.  Desculpe-nos pelo inconveniente.",
+  "pending.members": "{count, plural, =0 {Não há nenhuma solicitação esperando aprovação} one {# Solicitação esperando aprovação} other {# Solicitações esperando aprovação}}",
+  "sample.images": "Amostra de Imagens",
+  "try.new.experience.feedback": "Experimente a nova versão e nos dê um feedback.",
+  "nav.overview": "Visão Geral",
+  "error.try.again.message": "Ocorreu um erro. Tente novamente mais tarde.",
+  "displaying.film.count": "(Este centro de história da família tem {location_count, number} de {total_count, number} filmes/microfichas.)",
+  "auto-save.label": "Salvo automaticamente às {time, time, short}",
+  "changes.feedback": "Fizemos algumas mudanças para proporcionar-lhe uma experiência melhor. Gostaríamos muito de receber seus <0>comentários</0> para futuras melhorias.",
+  "error.message.body": "Ocorreu um erro que pode afetar o uso desta página. O FamilySearch já foi notificado.",
+  "upload.progress": "{percent, number, percent} of {totalSize, number}",
+  "image.permissions.action": "No site <0>{imageThirdPartyProvider}</0>. Ao clicar nesse link, você vai sair do FamilySearch.org (taxas e outras condições podem ser aplicáveis).",
+  "attach.error.message": "{errorCount, number} de {totalCount, number} A Anexação Falhou."
+}

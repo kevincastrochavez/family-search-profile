@@ -1,0 +1,20 @@
+{
+  "birth.label": "Naissance",
+  "death.label": "Décès",
+  "welcome.message.name": "Bienvenue sur le site de FamilySearch, {name}",
+  "lesson.plan.title.placeholder": "Leçon {number, number} ({date, date, medium})",
+  "modified.attribution": "Modification : le {date, date}, par {user}",
+  "app.unavailable.alert": "L’application {app} sera indisponible, le temps de procéder à une remise à niveau du site, à partir du {weekday}{ordinalDayOfMonth}{month} à {time} (heure universelle{utcOffset}) pendant environ {duration}.  Veuillez nous excuser de ce désagrément.",
+  "pending.members": "{count, plural, =0 {Pas de membre en attente} one {# membre en attente} other {# membres en attente}}",
+  "sample.images": "Échantillons d’images",
+  "try.new.experience.feedback": "Essayez la nouvelle page et donnez-nous votre avis.",
+  "nav.overview": "Aperçu",
+  "error.try.again.message": "Une erreur s’est produite. Veuillez réessayer.",
+  "displaying.film.count": "(Ce centre d’histoire familiale possède {location_count, number} de {total_count, number} microfilms/microfiches.)",
+  "auto-save.label": "Enregistré automatiquement à {time, time, short}",
+  "changes.feedback": "Nous avons introduit quelques changements qui rendront votre page d’accueil plus pratique. Nous aimerions savoir <0>ce que vous en pensez</0> en vue d’améliorations futures.",
+  "error.message.body": "Une erreur pouvant empêcher le fonctionnement de cette page s’est produite. FamilySearch a été prévenu.",
+  "upload.progress": "{percent, number, percent} de {totalSize, number}",
+  "image.permissions.action": "À <0>{imageThirdPartyProvider}</0>. En cliquant ici vous quitterez FamilySearch.org (des frais et d’autres modalités peuvent s’appliquer).",
+  "attach.error.message": "Impossible de joindre {errorCount, number} des {totalCount, number} pièces jointes "
+}
