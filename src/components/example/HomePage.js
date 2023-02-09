@@ -11,10 +11,10 @@ import BackgroundImg from './background.jpeg'
 
 const headerGridCss = css`
   display: grid;
-  grid-template-rows: 210px 60px 90px;
+  grid-template-rows: 210px 60px 90px 60px auto;
   grid-template-columns: 32px 150px auto 1fr;
   column-gap: 12px;
-  margin: 32px 0 60px;
+  margin-top: 32px;
 `
 
 const backgroundImgCss = css`
@@ -38,6 +38,12 @@ const headerBlockCss = css`
   grid-column: 3/4;
 `
 
+const tabsContainerCss = css`
+  grid-row: 5/6;
+  grid-column: 2/-2;
+  padding-left: 24px;
+`
+
 const HomePage = () => {
   return (
     <LayoutBand>
@@ -48,13 +54,15 @@ const HomePage = () => {
         <div css={headerBlockCss}>
           <HeaderBlock size="md" heading="Kevin Castro" subHeading="Web Developer" />
         </div>
-      </header>
 
-      <Tabs centered>
-        <Tab title="About" to="/" />
-        <Tab title="Hobbies" to="/hobbies" />
-        <Tab title="Projects" to="/projects" />
-      </Tabs>
+        <div css={tabsContainerCss}>
+          <Tabs>
+            <Tab title="About" to="/" />
+            <Tab title="Hobbies" to="/hobbies" />
+            <Tab title="Projects" to="/projects" />
+          </Tabs>
+        </div>
+      </header>
     </LayoutBand>
   )
 }
