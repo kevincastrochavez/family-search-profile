@@ -14,7 +14,7 @@ const headerGridCss = css`
   grid-template-rows: 210px 60px 90px;
   grid-template-columns: 32px 150px auto 1fr;
   column-gap: 12px;
-  margin-top: 32px;
+  margin: 32px 0 60px;
 `
 
 const backgroundImgCss = css`
@@ -50,12 +50,11 @@ const HomePage = () => {
         </div>
       </header>
 
-      <LayoutBand>
-        <Tabs>
-          <Tab title="Hobies" to="/hobies" />
-          <Tab title="Projects" to="/projects" />
-        </Tabs>
-      </LayoutBand>
+      <Tabs centered>
+        <Tab title="About" to="/" />
+        <Tab title="Hobbies" to="/hobbies" />
+        <Tab title="Projects" to="/projects" />
+      </Tabs>
     </LayoutBand>
   )
 }
