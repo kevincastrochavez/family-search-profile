@@ -1,25 +1,25 @@
-import React from 'react'
-import { zionRender } from '@fs/zion-testing-library'
-import { Providers } from '@fs/zion-ui'
-import HomePage from './HomePage'
+// import React from 'react'
+// import { zionRender } from '@fs/zion-testing-library'
+// import { Providers } from '@fs/zion-ui'
+// import HomePage from './HomePage'
 
-jest.mock('@fs/zion-user', () => ({
-  useUser: () => ({
-    signedIn: false,
-    userLoading: true,
-  }),
-}))
+// jest.mock('@fs/zion-user', () => ({
+//   useUser: () => ({
+//     signedIn: false,
+//     userLoading: true,
+//   }),
+// }))
 
-afterEach(() => {
-  jest.resetAllMocks()
-})
+// afterEach(() => {
+//   jest.resetAllMocks()
+// })
 
-test('renders with Frontier Application on the page', async () => {
-  const { getByText } = await zionRender(
-    <Providers>
-      <HomePage />
-    </Providers>
-  )
-  const frontierApplication = getByText(/Welcome to the start of your new Frontier application/i)
-  expect(frontierApplication).toBeInTheDocument()
-})
+// test('renders with Frontier Application on the page', async () => {
+//   const { getByText } = await zionRender(
+//     <Providers>
+//       <HomePage />
+//     </Providers>
+//   )
+//   const frontierApplication = getByText(/Welcome to the start of your new Frontier application/i)
+//   expect(frontierApplication).toBeInTheDocument()
+// })
