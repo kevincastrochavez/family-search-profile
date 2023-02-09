@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { Switch, Route, AuthRoute, NotFound } from '@fs/zion-router'
+import { Switch, Route, NotFound } from '@fs/zion-router'
 import ErrorBoundary from '@fs/zion-error-boundary'
 import HomePageSkeleton from './components/example/HomePageSkeleton'
 
@@ -7,7 +7,6 @@ import HomePageSkeleton from './components/example/HomePageSkeleton'
 // https://reactjs.org/docs/react-api.html#reactlazy
 
 const HomePage = React.lazy(() => import('./components/example/HomePage'))
-const UserInfoPage = React.lazy(() => import('./components/example/UserInfoPage'))
 
 function App() {
   return (

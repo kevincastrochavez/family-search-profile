@@ -1,31 +1,13 @@
-import React, { Suspense } from 'react'
-import { colors, HeaderBlock, LayoutBand, Separator, Skeleton, Tab, Tabs } from '@fs/zion-ui'
+import React from 'react'
+import { HeaderBlock, LayoutBand, Tab, Tabs } from '@fs/zion-ui'
 
-import { Link } from '@fs/zion-router'
+// import { Link } from '@fs/zion-router'
 import { css } from '@emotion/core'
-import zionDebug from '@fs/zion-debug'
-import { NoticeLoading } from '@fs/zion-icon'
+// import zionDebug from '@fs/zion-debug'
+// import { NoticeLoading } from '@fs/zion-icon'
 
 import ProfileImg from './profile.jpeg'
 import BackgroundImg from './background.jpeg'
-
-const wagonButtonCss = css`
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -html-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  overflow: hidden;
-  &:focus {
-    outline: none;
-    background-color: ${colors.gray02};
-  }
-`
 
 const headerGridCss = css`
   display: grid;
